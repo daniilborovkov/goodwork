@@ -218,6 +218,12 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('services/github/connected-repos', 'ConnectedGithubRepoController@index');
 
     Route::post('services/github/connected-repos', 'ConnectedGithubRepoController@store');
+
+    /**********************************
+        Backup
+    **********************************/
+    Route::post('backup/backup', 'BackupController@backup');
+    Route::post('backup/restore', 'BackupController@restore');
 });
 
     /**********************************

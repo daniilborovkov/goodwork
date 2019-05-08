@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35c544eb609415d163c7f4357e64065f",
+    "content-hash": "a3bd6e8417b1ca9d190aa69544faeff0",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -55,6 +55,57 @@
                 "toolkit"
             ],
             "time": "2015-05-16T19:24:58+00:00"
+        },
+        {
+            "name": "cornford/backup",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bradcornford/Backup.git",
+                "reference": "ac2d33bf7597a966267a2fbd274ba787972fc4b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bradcornford/Backup/zipball/ac2d33bf7597a966267a2fbd274ba787972fc4b8",
+                "reference": "ac2d33bf7597a966267a2fbd274ba787972fc4b8",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "5.*",
+                "illuminate/console": "5.*",
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0",
+                "symfony/process": "*"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.1",
+                "phpspec/phpspec": "2.*@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Cornford\\Backup": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bradley Cornford",
+                    "email": "me@bradleycornford.co.uk"
+                }
+            ],
+            "description": "An easy way backup and restore databases in Laravel.",
+            "keywords": [
+                "backup",
+                "database",
+                "dump",
+                "laravel",
+                "restore"
+            ],
+            "time": "2017-06-05T09:59:56+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
